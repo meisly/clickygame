@@ -2,14 +2,14 @@ import React from "react";
 import Header from "./components/Header"
 import ImageCard from "./components/ImageCard";
 import Wrapper from "./components/Wrapper";
-import friends from "./friends.json";
+import images from "./friends.json";
 import "./App.css";
 
 class App extends React.Component {
 
 
   state = {
-    all: friends,
+    all: images,
     clicked: [],
     score: 0
   };
@@ -20,11 +20,11 @@ class App extends React.Component {
       <Header score={this.state.score}/>
       <Wrapper>
         <h1 className="title">Click each image once and only once to win!</h1>
-        {this.state.all.map(friend => (
+        {this.state.all.map(image => (
           <ImageCard
-            name={friend.name}
-            image={friend.image}
-            handleClick={() => this.handleClick(friend.id)}
+            key={image.id}
+            image={image.image}
+            handleClick={() => this.handleClick(image.id)}
           />
         )
         )}
@@ -49,8 +49,9 @@ class App extends React.Component {
         clicked: newClicked,
         score: newScore
       });
-      if(this.state.score === this.state.all.length){
+      if(newScore === this.state.all.length){
         alert("Congratulations!  You won a free iphone")
+        this.initializeGame();
       }
     }
   }
@@ -65,7 +66,7 @@ class App extends React.Component {
 
   initializeGame = () =>{
     this.setState({
-      all: friends,
+      all: images,
       clicked: [],
       score: 0
     })
