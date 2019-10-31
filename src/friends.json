@@ -1,86 +1,146 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png"
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
-    "location": "California"
+    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641"
   },
   {
     "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836"
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png"
+  },
+  {
+    "id": 13,
+    "image": "https://www.stickpng.com/assets/thumbs/5859661d4f6ae202fedf2877.png"
+  },
+  {
+    "id": 14,
+    "image": "https://www.stickpng.com/assets/thumbs/585964fc4f6ae202fedf285e.png"
+  },
+  {
+    "id": 15,
+    "image": "http://assets.stickpng.com/thumbs/59cfc955d3b1936210a5dddc.png"
+  },
+  {
+    "id": 16,
+    "image": "https://www.stickpng.com/assets/thumbs/585965b84f6ae202fedf286f.png"
+  },
+  {
+    "id": 17,
+    "image": "https://png.pngtree.com/element_origin_min_pic/16/07/22/165791da75ea62b.jpg"
+  },
+  {
+    "id": 18,
+    "image": "https://png.pngtree.com/element_origin_min_pic/17/08/26/c687f2fbc570c6fa0381043b5cb49583.jpg"
+  },
+  {
+    "id": 19,
+    "image": "https://www.stickpng.com/assets/thumbs/585965e14f6ae202fedf2872.png"
+  },
+  {
+    "id": 20,
+    "image": "https://www.stickpng.com/assets/thumbs/585965744f6ae202fedf286a.png"
+  },
+  {
+    "id": 21,
+    "image": "https://www.stickpng.com/assets/thumbs/580b57fcd9996e24bc43c32c.png"
+  },
+  {
+    "id": 22,
+    "image": "https://www.stickpng.com/assets/thumbs/585965314f6ae202fedf2863.png"
+  },
+  {
+    "id": 23,
+    "image": "https://www.stickpng.com/assets/thumbs/585966094f6ae202fedf2875.png"
+  },
+  {
+    "id": 24,
+    "image": "http://assets.stickpng.com/thumbs/59cfc99ed3b1936210a5dde2.png"
+  },
+  {
+    "id": 25,
+    "image": "https://www.stickpng.com/assets/thumbs/580b57fcd9996e24bc43c326.png"
+  },
+  {
+    "id": 26,
+    "image": "https://www.freepngimg.com/thumb/pokemon/37470-6-pikachu-transparent-background.png"
+  },
+  {
+    "id": 27,
+    "image": "https://www.stickpng.com/assets/thumbs/580b57fcd9996e24bc43c322.png"
+  },
+  {
+    "id": 28,
+    "image": "https://www.stickpng.com/assets/thumbs/5859656a4f6ae202fedf2869.png"
+  },
+  {
+    "id": 29,
+    "image": "https://pngriver.com/wp-content/uploads/2018/04/Download-Pokemon-PNG-Image.png"
+  },
+  {
+    "id": 30,
+    "image": "https://www.stickpng.com/assets/thumbs/585966004f6ae202fedf2874.png"
+  },
+  {
+    "id": 31,
+    "image": "https://www.stickpng.com/assets/thumbs/5859658f4f6ae202fedf286c.png"
+  },
+  {
+    "id": 32,
+    "image": "https://assets.webiconspng.com/uploads/2017/09/Pokemon-PNG-Image-48368.png"
+  },
+  {
+    "id": 33,
+    "image": "https://www.stickpng.com/assets/thumbs/585965ca4f6ae202fedf2870.png"
+  },
+  {
+    "id": 34,
+    "image": "http://www.pngnames.com/files/4/Pokemon-PNG-Transparent-Background.png"
+  },
+  {
+    "id": 35,
+    "image": "https://pngriver.com/wp-content/uploads/2018/04/Download-Pokemon-Transparent.png"
+  },
+  {
+    "id": 36,
+    "image": "https://www.stickpng.com/assets/thumbs/585965ad4f6ae202fedf286e.png"
   }
 ]

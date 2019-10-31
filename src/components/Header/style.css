@@ -1,5 +1,14 @@
 .bottom {
   position: absolute;
-  bottom: 1rem;
+  bottom: .5rem;
   right: 2rem;
+}
+
+@media only screen and (max-width: 600px){
+  nav h3 {
+    font-size: 1.25rem;
+  }
+  nav h1 {
+    font-size: 1.9rem;
+  }
 }

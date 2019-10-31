@@ -12,8 +12,9 @@ function Header(props) {
         Clicky Game
       </h1> 
     </a>
-    <div className="left buttom">
+    <div className="left bottom">
       <h3 className="text-white">Score: {props.score}</h3>
+      <h3 className="text-white">Level: {props.level}</h3>
     </div>
     </nav>
     
