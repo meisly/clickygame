@@ -17,11 +17,11 @@
 }
 @media only screen and (max-width: 600px){
   .card {
-    height: var(--image-size-mobile);
-    max-height: 20vw;
-    max-width: 20vw;
+    height: var(--image-size-mobile)!important;
+    max-height: 30vw;
+    max-width: 30vw;
     margin: .2rem;
-    width: var(--image-size-mobile);
+    width: var(--image-size-mobile)!important;
   }
 }
 .card > .img-container {

@@ -6,10 +6,11 @@ function Wrapper(props) {
   let elems = props.total;
   let cols = 3* Math.floor(Math.sqrt(elems));
   let size = 100/cols;
+  let mobSize = 180/cols;
   document.documentElement.style
     .setProperty('--image-size', `${size}vw`);
-    document.documentElement.style
-    .setProperty('--image-size-mobile', `${2*size}vw`);
+  document.documentElement.style
+    .setProperty('--image-size-mobile', `${mobSize}vw`);
 
 
   return <div className="wrapper">{props.children}</div>;
