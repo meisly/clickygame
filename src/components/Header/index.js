@@ -5,15 +5,18 @@ import "./style.css";
 function Header(props) {
   return (
     <div>
-    <nav className="navbar navbar-light bg-light">
+    <nav className="navbar navbar-dark bg-dark">
     <a className="navbar-brand" href="/">
       <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" className="d-inline-block align-top" alt=""/>
-      Clicky Game 
+      <h1>
+        Clicky Game
+      </h1> 
     </a>
-    </nav>
-    <div>
-      Score: {props.score}
+    <div className="left buttom">
+      <h3 className="text-white">Score: {props.score}</h3>
     </div>
+    </nav>
+    
     </div>
   );
 }

@@ -5,6 +5,7 @@ import Wrapper from "./components/Wrapper";
 import images from "./friends.json";
 import "./App.css";
 
+
 class App extends React.Component {
 
 
@@ -17,24 +18,24 @@ class App extends React.Component {
   render() {
     return (
       <div>
-      <Header score={this.state.score}/>
-      <Wrapper>
-        <h1 className="title">Click each image once and only once to win!</h1>
-        {this.state.all.map(image => (
-          <ImageCard
-            key={image.id}
-            image={image.image}
-            handleClick={() => this.handleClick(image.id)}
-          />
-        )
-        )}
+        <Header score={this.state.score} />
+        <Wrapper total={this.state.all.length}>
+          <h1 className="title">Click each image once and only once to win!</h1>
+          {this.state.all.map(image => (
+            <ImageCard
+              key={image.id}
+              image={image.image}
+              handleClick={() => this.handleClick(image.id)}
+            />
+          )
+          )}
 
-      </Wrapper>
+        </Wrapper>
       </div>
     )
   };
   handleClick = (id) => {
-    if (this.state.clicked.includes(id)){
+    if (this.state.clicked.includes(id)) {
       alert("dang, y'all fucked up now")
       this.initializeGame();
     } else {
@@ -49,13 +50,13 @@ class App extends React.Component {
         clicked: newClicked,
         score: newScore
       });
-      if(newScore === this.state.all.length){
+      if (newScore === this.state.all.length) {
         alert("Congratulations!  You won a free iphone")
         this.initializeGame();
       }
     }
   }
-  randomizeImages = (imageArr)=>{
+  randomizeImages = (imageArr) => {
     let array = imageArr;
     for (let i = array.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
@@ -64,13 +65,14 @@ class App extends React.Component {
     return array;
   }
 
-  initializeGame = () =>{
+  initializeGame = () => {
     this.setState({
       all: images,
       clicked: [],
       score: 0
     })
   }
+
 }
 
 export default App;
