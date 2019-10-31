@@ -8,6 +8,8 @@ function Wrapper(props) {
   let size = 100/cols;
   document.documentElement.style
     .setProperty('--image-size', `${size}vw`);
+    document.documentElement.style
+    .setProperty('--image-size-mobile', `${2*size}vw`);
 
 
   return <div className="wrapper">{props.children}</div>;

@@ -1,6 +1,8 @@
 :root {
   --image-size: 15vw;
+  --image-size-mobile: 15vw;
 }
+
 .card {
   background: #fff;
   border-radius: 2px;
@@ -13,7 +15,15 @@
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 }
-
+@media only screen and (max-width: 600px){
+  .card {
+    height: var(--image-size-mobile);
+    max-height: 20vw;
+    max-width: 20vw;
+    margin: .2rem;
+    width: var(--image-size-mobile);
+  }
+}
 .card > .img-container {
   height: 100%;
   overflow: hidden;
